@@ -113,3 +113,26 @@ import UIKit
 //let str = "apples"
 //
 //print(String(int) + " " + str)
+
+// Advanced level
+// Exercise 1 & 2
+//let countries = ["Kazakhstan", "Russia", "USA", "Sweden", "China"]
+//let cities = ["Astana", "Russia", "New York", "Almaty", "Moscow"]
+//
+//for country in countries {
+//    for city in cities {
+//        if country == city {
+//            print(country, city, "Correct")
+//        } else {
+//            print(country, city, "Incorrect")
+//        }
+//    }
+//}
+//print("\n")
+//for country in countries {
+//    if country.contains("a") {
+//        print("The country \(country) contains letter a")
+//    }
+//}
+
+// Exercise 3, 4 & 5
