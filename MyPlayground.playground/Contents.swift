@@ -136,3 +136,17 @@ import UIKit
 //}
 
 // Exercise 3, 4 & 5
+//let text = "ываььывпжпзщукпжьп"
+//let textUpper = text.uppercased()
+//
+//let letter: Character = "ь"
+//var index = 0
+//
+//for l in text {
+//    if l == letter {
+//        break
+//    }
+//    index += 1
+//}
+//
+//print(index)
