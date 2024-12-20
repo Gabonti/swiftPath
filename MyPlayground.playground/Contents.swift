@@ -150,3 +150,71 @@ import UIKit
 //}
 //
 //print(index)
+
+// MARK: Arrays
+// Exercise 1, 2, 3, 4 & 5
+//var pupils = ["boy1", "boy2", "boy3", "boy4", "boy5", "boy6", "boy7", "boy8", "boy9", "boy10", "boy11", "boy12"]
+//
+//pupils.append("girl1")
+//pupils.insert("girl2", at: 5)
+//pupils.append("girl3")
+//pupils.insert("girl4", at: 10)
+//pupils.append("girl5")
+//pupils.insert("girl6", at: 0)
+//pupils.append("girl7")
+//
+//print(pupils)
+//
+//pupils.removeSubrange(1...5)
+//pupils.remove(at: 3)
+//pupils.remove(at: 3)
+//pupils.removeLast()
+//pupils.removeFirst()
+//
+//print(pupils)
+//
+//var grade1 = [1, 2, 3, 4, 5]
+//let grade2 = [6, 7, 8, 9, 10]
+//
+//grade1.append(contentsOf: grade2)
+//
+//for (indexg, g) in grade1.enumerated() {
+//    for (indexp, p) in pupils.enumerated() {
+//        if indexg == indexp {
+//            switch g {
+//            case 1:
+//                print("\(p) - \(g). Too bad")
+//            case 2:
+//                print("\(p) - \(g). Too bad")
+//            case 3:
+//                print("\(p) - \(g). Bad")
+//            case 4:
+//                print("\(p) - \(g). Not bad")
+//            case 5:
+//                print("\(p) - \(g). Not bad")
+//            case 6:
+//                print("\(p) - \(g). Good")
+//            case 7:
+//                print("\(p) - \(g). Good")
+//            case 8:
+//                print("\(p) - \(g). Great")
+//            case 9:
+//                print("\(p) - \(g). Excellent")
+//            case 10:
+//                print("\(p) - \(g). Excellent")
+//            default:
+//                break
+//            }
+//        }
+//    }
+//}
+
+// Exercise 6
+//let money = [5, 10, 10, 20, 100, 100, 5]
+//var sum = 0
+//
+//for m in money {
+//    sum += m
+//}
+//
+//print("Total money:", sum)
