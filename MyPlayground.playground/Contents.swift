@@ -218,3 +218,23 @@ import UIKit
 //}
 //
 //print("Total money:", sum)
+
+// Advanced level
+// Exercise 1
+//var countries = ["Italia", "Germania", "Francia", "Hispania", "Britannia", "Graecia", "Polonia", "America", "Canada", "Australia"]
+//
+//var countryArray = [String]()
+//
+//for country in countries {
+//    var newCountry = country
+//    if country.count > 5 {
+//        if country.contains("A") {
+//            let newCountry = country.replacingOccurrences(of: "A", with: "U")
+//            countryArray.append(newCountry)
+//        } else {
+//            countryArray.append(country)
+//        }
+//    }
+//}
+//
+//print(countryArray)
