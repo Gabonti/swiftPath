@@ -238,3 +238,19 @@ import UIKit
 //}
 //
 //print(countryArray)
+
+// Exercise 2
+//var numArray = [34, 89, 12, 45, 76, 23, 56, 78, 90, 11, 39, 62, 17, 25, 80, 67, 49, 31, 5, 99]
+//var sortedArray = [Int]()
+//
+//while !numArray.isEmpty {
+//    if let numMin = numArray.min() {
+//        sortedArray.append(numMin)
+//        
+//        if let index = numArray.firstIndex(of: numMin) {
+//            numArray.remove(at: index)
+//        }
+//    }
+//}
+//    
+//print(sortedArray)
