@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 // MARK: Constants, variables and data types
 // Exercise 1
@@ -239,7 +240,7 @@ import UIKit
 //
 //print(countryArray)
 
-// Exercise 2
+// Exercise 2, 3 & 4
 //var numArray = [34, 89, 12, 45, 76, 23, 56, 78, 90, 11, 39, 62, 17, 25, 80, 67, 49, 31, 5, 99]
 //var sortedArray = [Int]()
 //
@@ -254,3 +255,98 @@ import UIKit
 //}
 //    
 //print(sortedArray)
+
+// MARK: Dictionary
+// Exercise 1, 2
+//let monthInEnglish = [
+//    1 : "January",
+//    2 : "February",
+//    3 : "March",
+//    4 : "April",
+//    5 : "May",
+//    6 : "June",
+//    7 : "July",
+//    8 : "August",
+//    9 : "September",
+//    10 : "October",
+//    11 : "November",
+//    12 : "December"
+//]
+//
+//let monthInRussian = [
+//    1 : "Январь",
+//    2 : "Февраль",
+//    3 : "Март",
+//    4 : "Апрель",
+//    5 : "Май",
+//    6 : "Июнь",
+//    7 : "Июль",
+//    8 : "Август",
+//    9 : "Сентябрь",
+//    10 : "Октябрь",
+//    11 : "Ноябрь",
+//    12 : "Декабрь"
+//]
+//
+//let numbers = [
+//    1 : "One",
+//    2 : "Two",
+//    3 : "Three",
+//    4 : "Four",
+//    5 : "Five"
+//]
+//
+//let usernames = [
+//    "First" : "username1",
+//    "Second" : "username2",
+//    "Third" : "username3",
+//    "Forth" : "username4",
+//    "Fifth" : "username5"
+//]
+//
+//let colors = [
+//    "G" : "Green",
+//    "R" : "Red",
+//    "B" : "Blue",
+//    "Y" : "Yellow",
+//    "W" : "White"
+//]
+//
+//
+//for (key, value) in colors {
+//    print(key, value)
+//}
+
+// Exercise 3
+//var dict: [String : Int] = [:]
+//
+//if dict.isEmpty {
+//    dict["apples"] = 5
+//}
+//
+//print(dict)
+
+// Exercise 4
+//var cars = [
+//    "Иномарка1" : "Toyota",
+//    "Иномарка2" : "BMW",
+//    "Иномарка3" : "KIA"
+//]
+//
+//cars["Отечественная1"] = "LADA"
+//
+//for (key, value) in cars {
+//    print(key, value)
+//}
+//print("\n")
+//for value in cars.values {
+//    print(value)
+//}
+//print("\n")
+//
+//cars["Иномарка1"] = nil
+//cars.removeValue(forKey: "Иномарка2")
+//
+//for (key, value) in cars {
+//    print(key, value)
+//}
