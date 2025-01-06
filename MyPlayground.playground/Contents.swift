@@ -379,4 +379,13 @@ import Foundation
 //print("Second -", numberOfCriminalsTwo.1 - Second)
 //print("Third -", numberOfCriminalsTwo.Third - numberOfCriminals.2)
 
+// MARK: Cycles
+// Exercise 1
+//let daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+//
+//for (index, days) in daysInMonth.enumerated() {
+//    print(index + 1, "-", days)
+//}
+
+// Exercise 2
 
