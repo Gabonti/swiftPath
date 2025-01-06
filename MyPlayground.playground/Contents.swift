@@ -257,7 +257,7 @@ import Foundation
 //print(sortedArray)
 
 // MARK: Dictionary
-// Exercise 1, 2
+// Exercise 1 & 2
 //let monthInEnglish = [
 //    1 : "January",
 //    2 : "February",
@@ -350,3 +350,33 @@ import Foundation
 //for (key, value) in cars {
 //    print(key, value)
 //}
+
+// MARK: Tuples
+// Exercise 1
+//var tuple = (City: "city", 3, "age", "123", 123)
+//
+//let (_, _, Age, _, Number) = tuple
+//
+//print(tuple.1)
+//print(Age)
+//print(tuple.City)
+
+// Exercise 2, 3, 4 & 5
+//let numberOfCriminals = (First: 5, 3, 6)
+//
+//let (_, Second, _) = numberOfCriminals
+//
+//print("""
+//First \(numberOfCriminals.First)
+//Second \(Second)
+//Third \(numberOfCriminals.2)
+//""")
+//
+//let numberOfCriminalsTwo = (6, 4, Third: 8)
+//
+//print("The difference is:")
+//print("First -", numberOfCriminalsTwo.0 - numberOfCriminals.First)
+//print("Second -", numberOfCriminalsTwo.1 - Second)
+//print("Third -", numberOfCriminalsTwo.Third - numberOfCriminals.2)
+
+
