@@ -351,6 +351,38 @@ import Foundation
 //    print(key, value)
 //}
 
+// Advanced level
+// Exercise 1, 2, 3, 4 & 5
+//let armyDict = [
+//    "Сергеев" : "Здравья желаю",
+//    "Чухонцев" : "Приветствую",
+//    "Строков" : "Привет"
+//]
+//
+//for surname in armyDict.keys {
+//    print(surname)
+//    switch surname {
+//    case "Сергеев":
+//        print("Sniper")
+//    case "Чухонцев":
+//        print("Tankist")
+//    default:
+//        break
+//    }
+//}
+//
+//for greeting in armyDict.values {
+//    print(greeting)
+//}
+//
+//let sortedDict = armyDict.sorted() {
+//    $0 < $1
+//}
+//
+//for (key, value) in sortedDict {
+//    print(key, "-", value)
+//}
+
 // MARK: Tuples
 // Exercise 1
 //var tuple = (City: "city", 3, "age", "123", 123)
@@ -388,4 +420,59 @@ import Foundation
 //}
 
 // Exercise 2
+//let age = 20
+//
+//if age <= 5 {
+//    print("Go to kindergarten")
+//} else if 5 < age && age <= 16 {
+//    print("Go to school")
+//} else if 16 < age && age <= 21 {
+//    print("Go to university")
+//} else if 21 < age && age <= 55 {
+//    print("Go to work")
+//} else if 55 < age && age <= 90 {
+//    print("Go rest")
+//} else {
+//    print("Error")
+//}
+//
+//switch age {
+//case 0...5:
+//    print("Go to kindergarten")
+//case 6...16:
+//    print("Go to school")
+//case 17...21:
+//    print("Go to university")
+//case 22...55:
+//    print("Go to work")
+//case 56...90:
+//    print("Go rest")
+//default:
+//    print("Error")
+//}
 
+// Exercise 3
+//let grade = 7
+//
+//switch grade {
+//case 1...4:
+//    print("Too bad. Go repeat this topic")
+//case 5...7:
+//    print("Bad. Go repeat this topic")
+//case 8...10:
+//    print("Good. But, you could've gotten more, if you had prepared more")
+//case 11...12:
+//    print("Excellent")
+//default:
+//    print("Error")
+//}
+
+// Exercise 4
+//cycle: for i in 0...200 {
+//    for j in 0...i {
+//        if j == 15 {
+//            print(j)
+//            break cycle
+//        }
+//    }
+//}
