@@ -411,6 +411,50 @@ import Foundation
 //print("Second -", numberOfCriminalsTwo.1 - Second)
 //print("Third -", numberOfCriminalsTwo.Third - numberOfCriminals.2)
 
+// Advanced level
+// Exercise 1, 2, 3, 4 & 5
+//var developers = Array(repeating: ("", 0, 0, ""), count: 5)
+//
+//developers[0].0 = "Mark"
+//developers[1].0 = "Bob"
+//developers[2].0 = "Donald"
+//developers[3].0 = "Alice"
+//developers[4].0 = "Steve"
+//
+//developers[0].1 = 24
+//developers[2].1 = 25
+//developers[4].1 = 27
+//
+//developers[0].2 = 3
+//developers[1].2 = 5
+//developers[2].2 = 5
+//developers[4].2 = 6
+//
+//developers[2].3 = "ios"
+//developers[4].3 = "frontend"
+//
+//var littleDevelopers = [(String, Int, Int, String)]()
+//var notIosDevelopers = [(String, Int, Int, String)]()
+//
+//for developer in developers {
+//    if developer.1 > 23 && developer.2 > 1 && developer.3 == "ios" {
+//        print(developer.0, ", Welcome to our company")
+//    }
+//    if developer.1 < 23 {
+//        littleDevelopers.append(developer)
+//    }
+//    if developer.3 != "ios" {
+//        notIosDevelopers.append(developer)
+//    }
+//}
+//print(littleDevelopers)
+//littleDevelopers.sort() { $0 < $1 }
+//print(littleDevelopers)
+//littleDevelopers.removeLast()
+//
+//print(littleDevelopers)
+//print(notIosDevelopers)
+
 // MARK: Cycles
 // Exercise 1
 //let daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
