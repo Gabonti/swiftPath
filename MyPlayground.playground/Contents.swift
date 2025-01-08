@@ -457,7 +457,7 @@ import Foundation
 
 // MARK: Cycles
 // Exercise 1
-//let daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+//var daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 //
 //for (index, days) in daysInMonth.enumerated() {
 //    print(index + 1, "-", days)
@@ -520,3 +520,5 @@ import Foundation
 //        }
 //    }
 //}
+
+// Today is rest day
