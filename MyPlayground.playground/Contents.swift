@@ -522,3 +522,46 @@ import Foundation
 //}
 
 // Today is rest day
+
+// Advanced level
+// Exercise 1, 2, 3 & 4
+//var board = Array(repeating: Array(repeating: "⬜️", count: 8), count: 8)
+//let figures: [(name: String, position: (Int, Int))] = [
+//    ("B ", (7, 0)),
+//    ("K ", (7, 1))
+//]
+//
+//let moves: [(name: String, position: (Int, Int))] = [
+//    ("B ", (6, 0)),
+//    ("K ", (5, 0))
+//]
+//
+//for figure in figures {
+//    board[figure.position.0][figure.position.1] = figure.name
+//    
+//}
+//
+//for move in moves {
+//    for figure in figures {
+//        if move.name == figure.name {
+//            if move.position == figure.position {
+//                print("Error")
+//            } else {
+//                board[move.position.0][move.position.1] = move.name
+//                board[figure.position.0][figure.position.1] = "⬜️"
+//                print(move.name, move.position)
+//            }
+//        }
+//    }
+//}
+//
+//for square in board {
+//    print(square.joined())
+//}
+
+
+
+
+
+
+
