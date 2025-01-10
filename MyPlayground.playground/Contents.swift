@@ -559,9 +559,91 @@ import Foundation
 //    print(square.joined())
 //}
 
+// MARK: Functions
+// Exercise 1
+//func sortNum(_ numbers: [Int]) {
+//    print(numbers.sorted() { $0 < $1 })
+//}
+//
+//func sortStr(_ words: [String]) {
+//    var sortedWords = [String]()
+//    for i in 0..<3 {
+//        sortedWords.append(words[i])
+//        sortedWords.sort() { $0 < $1 }
+//    }
+//    
+//    for i in 3..<words.count {
+//        sortedWords.append(words[i])
+//    }
+//    
+//    print(sortedWords)
+//}
+//
+//func combineTwoStr(_ firstWords: [String], _ secondWords: [String]) {
+//    var combinedArray = firstWords + secondWords
+//    print(combinedArray)
+//}
+//
+//sortNum([1, 5, 2])
+//sortStr(["apple", "bottle", "aye", "aden", "beach"])
+//combineTwoStr(["a", "b"], ["c", "d"])
 
+// Exercise 2
+//func journal(_ studentsClosure: (name: String, profession: String, grade: Int)) {
+//    studentsArray.append(studentsClosure)
+//}
+//
+//var studentsArray = [(name: String, profession: String, grade: Int)]()
+//
+//journal(("Bob", "It", 80))
+//journal(("Mark", "Journalism", 90))
+//journal(("Daniel", "It", 90))
+//journal(("Arsen", "It", 80))
+//
+//for student in studentsArray {
+//    print("""
+//    Name - \(student.name)
+//    Profession - \(student.profession)
+//    Grade - \(student.grade)
+//    \n
+//    """)
+//}
 
+// Exercise 3
+//func fullname(_ name: String, _ surname: String) {
+//    var fullName = name + " " + surname
+//    names.append(fullName)
+//}
+//
+//var names = [String]()
+//
+//fullname("Bob", "Allen")
+//fullname("Jhony", "Depp")
+//
+//for name in names {
+//    print("Name - \(name)")
+//}
 
+// Exercise 4
+//func circleArea(_ radius: Double) {
+//    let pi = 3.14
+//    var area = pi * pow(radius, 2) / 4
+//    
+//    print(area)
+//}
+//
+//circleArea(4)
 
+// Exercise 5
+//var pupils = [String: (String, String, String, String, String)]()
+//
+//pupils["name"] = ("Bob", "Mark", "Daniel", "Alex", "James")
+//pupils["score"] = ("80", "90", "80", "70", "100")
+//
+//print(pupils["name"]?.0 ?? "Error")
+//print(pupils["name"]?.1 ?? "Error")
+//print(pupils["name"]?.2 ?? "Error")
+//print(pupils["name"]?.3 ?? "Error")
+//print(pupils["name"]?.4 ?? "Error")
 
 
