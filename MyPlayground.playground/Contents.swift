@@ -646,4 +646,47 @@ import Foundation
 //print(pupils["name"]?.3 ?? "Error")
 //print(pupils["name"]?.4 ?? "Error")
 
+// Advanced level
+// Exercise 1
+//func combineThreeStr(_ firstStr: [String], _ secondStr: [String], _ thirdStr: [String]) {
+//    var allStr = firstStr + secondStr + thirdStr
+//    var sum = 0
+//    for str in allStr {
+//        sum += Int(str) ?? 0
+//    }
+//    
+//    print(sum)
+//}
+//
+//let first = ["123", "aabc", "2"]
+//let second = ["1", "2", "3"]
+//let third = ["a", "b", "5"]
+//
+//combineThreeStr(first, second, third)
 
+// Exercise 2
+//func fixText(_ text: String) {
+//    var fixedText = String()
+//    for letter in text {
+//        switch letter {
+//        case " ", ",", ".", ":", ";", "’":
+//            fixedText += ""
+//        default:
+//            fixedText += letter.lowercased()
+//        }
+//    }
+//    
+//    print(fixedText)
+//}
+//
+//fixText("Success is not just about reaching a goal; it’s about the journey, the lessons learned, and the growth experienced along the way. Every step, no matter how small, brings you closer to achieving your dreams. Stay consistent, believe in yourself, and remember that persistence always pays off in the end.")
+
+// Exercise 3
+//func fixText(_ text: String) {
+//    var fixedText = String()
+//    for letter in text {
+//        switch letter {
+//
+//        }
+//    }
+//}
