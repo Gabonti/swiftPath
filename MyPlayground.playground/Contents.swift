@@ -589,8 +589,8 @@ import Foundation
 //combineTwoStr(["a", "b"], ["c", "d"])
 
 // Exercise 2
-//func journal(_ studentsClosure: (name: String, profession: String, grade: Int)) {
-//    studentsArray.append(studentsClosure)
+//func journal(_ studentsTuple: (name: String, profession: String, grade: Int)) {
+//    studentsArray.append(studentsTuple)
 //}
 //
 //var studentsArray = [(name: String, profession: String, grade: Int)]()
@@ -696,3 +696,84 @@ import Foundation
 // Watched videos(Swift)
 
 // Unfortunately, was busy today
+
+// MARK: Closures
+// Exercise 1
+// Замыкание делится на 2 вида: с именем и без. То, что с именем это функция. Замыкание это - блок кода, который задает некоторые функции коду.
+
+// Exercise 2
+//var numbersArray = [1, 5, 2, 4, 3]
+//
+//numbersArray.sort() { $0 < $1 }
+//numbersArray.sort() { $0 > $1 }
+//numbersArray.sort() { $0 % 2 == 0 && $1 % 2 == 1}
+//
+//var wordsArray = ["Apple", "Strawberry", "Banana", "Cucumber"]
+//
+//wordsArray.sort() { $0.count < $1.count }
+//wordsArray.sort() { $0 > $1 }
+
+// Exercise 3
+//let array = [Int]()
+//
+//func checkArray(array: [Int]) {
+//    var array = array
+//    if array.isEmpty {
+//        for i in 0...10 {
+//            array.append(Int.random(in: 0...i))
+//        }
+//        print("Filled array")
+//        print(array)
+//    } else {
+//        print("Everything is okay.")
+//        print(array)
+//    }
+//}
+//
+//checkArray(array: array)
+
+// Exercise 4
+//func website(tuple: (name: String, surname: String, nickname: String, mail: String, password: String)) {
+//    print(tuple.name)
+//    print(tuple.surname)
+//    print(tuple.nickname)
+//    print(tuple.mail)
+//    print(tuple.password)
+//}
+//
+//website(tuple: ("Bob", "Mark", "Bobby", "Bob@", "BobboB"))
+
+// Exercise 5
+//let array = [Int]()
+//let dict = [1: "value"]
+//
+//func checkArray(array: [Int]) {
+//    var array = array
+//    if array.isEmpty {
+//        for i in 0...10 {
+//            array.append(Int.random(in: 0...i))
+//        }
+//        print("Filled array")
+//        print(array)
+//    } else {
+//        print("Everything is okay.")
+//        print(array)
+//    }
+//}
+//
+//func checkDict(dict: [Int: String]) {
+//    var dict = dict
+//    if dict.isEmpty {
+//        for i in 0...10 {
+//            dict[i] = "Sum"
+//        }
+//        print("Filled dictionary")
+//        print(dict)
+//    } else {
+//        print("Everything is okay.")
+//        print(dict)
+//    }
+//}
+//
+//checkArray(array: array)
+//checkDict(dict: dict)
